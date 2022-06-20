@@ -27,20 +27,6 @@ let ejecutarCodigo = () => {
         {url:'https://images.unsplash.com/photo-1654046491755-20ef230f0add?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMDB8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60', alt:'cosa'},
         {url: 'https://images.unsplash.com/photo-1654083843429-146101352678?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzMnx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60', alt:'cosa'}];
         let arregloimg2 = [];
-        /*for(let j = 0; j<arregloImg.length;j++){
-                arregloimg2[j] = document.createElement('img');
-                arregloimg2[j].setAttribute('src',arregloImg[j].url);
-                arregloimg2[j].setAttribute('alt',arregloImg[j].alt);
-        }
-
-
-        for(let i=0; i<arregloimg2.length;i++){
-                console.log(i+1);
-                svg[i+1].replaceWith(arregloimg2[i]);
-        }
-        let img2;
-        img2 = document.getElementsByTagName('img');
-        console.log(img2);*/
 
         for (let i=0; i < arregloImg.length; i++) {
                 elemento = svg[0];
